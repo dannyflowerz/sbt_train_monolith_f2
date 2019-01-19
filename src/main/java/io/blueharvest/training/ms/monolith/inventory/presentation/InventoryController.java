@@ -6,13 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import io.blueharvest.training.ms.monolith.inventory.domain.entity.Product;
 import io.blueharvest.training.ms.monolith.inventory.service.InventoryService;
 
-@RequestMapping("/api/inventory-service")
 @RestController
 public class InventoryController {
 

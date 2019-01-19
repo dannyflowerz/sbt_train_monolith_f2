@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "localhost:8080/api/inventory-service/products",
+			"name": "localhost:8080/products",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -24,7 +24,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:8080/api/inventory-service/products",
+					"raw": "localhost:8080/products",
 					"host": [
 						"localhost"
 					],
@@ -39,7 +39,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:8080/api/inventory-service/products",
+			"name": "localhost:8080/products",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -54,7 +54,7 @@
 					"raw": "{\n\t\"name\":\"asgard\"\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/api/inventory-service/products",
+					"raw": "localhost:8080/products",
 					"host": [
 						"localhost"
 					],
@@ -69,7 +69,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:8080/api/order-service/orders",
+			"name": "localhost:8080/orders",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -84,7 +84,7 @@
 					"raw": "{\n\t\"productName\":\"asgard\"\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/api/order-service/orders",
+					"raw": "localhost:8080/orders",
 					"host": [
 						"localhost"
 					],
@@ -99,7 +99,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:8080/api/shipping-service/confirmations",
+			"name": "localhost:8080/confirmations",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -114,7 +114,7 @@
 					"raw": "{\n\t\"reservationCode\":\"24b505d7-8785-4c1d-8f68-bd1f21eae53e\"\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/api/shipping-service/confirmations",
+					"raw": "localhost:8080/confirmations",
 					"host": [
 						"localhost"
 					],
